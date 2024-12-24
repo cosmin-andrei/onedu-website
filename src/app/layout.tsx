@@ -13,9 +13,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-    title: "TEDxAvram Iancu Street - Life Chaning Decisions",
+    title: "Asociația ONedu",
     description:
-        "TEDxAvram Iancu Street este locul unde inspirația și inovația se întâlnesc pentru a schimba lumea. Descoperă poveștile care au schimbat vieți și fă parte dintr-o comunitate de oameni care își doresc să facă o diferență.",
+        "Asociația ONedu este organizația tinerilor pentru digitalizarea educației din România",
 };
 
 export default function RootLayout({

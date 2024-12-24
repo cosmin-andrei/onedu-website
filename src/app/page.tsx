@@ -1,23 +1,6 @@
-// components
-import {Navbar, Footer} from "@/components";
-import React, {Suspense} from "react";
-// sections
-import Hero from "./hero";
-import Parteners from "./parteners";
-import AboutEvent from "./about-event";
-import Tedtalks from "./tedtalks";
-import EventContent from "./event-content";
+import { redirect } from 'next/navigation';
 
-export default function Portfolio() {
-    return (
-        <>
-            <Navbar/>
-            <Hero/>
-            <AboutEvent/>
-            <Tedtalks/>
-            <EventContent/>
-            <Parteners/>
-            <Footer/>
-        </>
-    );
+export default function Page() {
+    redirect('/doneaza');
+    return null;
 }

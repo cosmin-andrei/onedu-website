@@ -1,0 +1,24 @@
+{
+  "solutii": [
+
+    {
+      "id": "howto",
+      "title": "How to: România",
+      "category": "Abilități și aptitudini",
+      "status": "Soluție live",
+      "image": "/image/solutions/howto.jpg",
+      "description": "How to: România este o platformă online care oferă informații și resurse educaționale pentru elevi și studenți, pentru a-i ajuta să-și dezvolte aptitudini și abilități esențiale pentru viitorul lor profesional.",
+      "link": "https://howto.onedu.ro/"
+
+    },
+    {
+      "id": "larisa",
+      "title": "Larisa: asistentul tău în alegerea liceului",
+      "category": "Abilități și aptitudini",
+      "status": "Soluție proiectată",
+      "image": "/image/solutions/larisa.png",
+      "description": ".....",
+      "link": ""
+    }
+  ]
+}

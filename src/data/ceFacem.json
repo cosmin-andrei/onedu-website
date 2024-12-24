@@ -1,0 +1,26 @@
+[
+  {
+    "imageSrc": "/image/about/educatie.jpg",
+    "imageAlt": "Educatie",
+    "title": "Soluții digitale gratuite",
+    "description": "Construim aplicații online pentru elevi, profesori, părinți, școli, tineri și organizații non-guvernamentale.",
+    "linkText": "",
+    "linkHref": ""
+  },
+  {
+    "imageSrc": "/image/about/scoli.jpg",
+    "imageAlt": "Renovăm școli",
+    "title": "Renovăm școli",
+    "description": "Renovaaaam de zor",
+    "linkText": "",
+    "linkHref": ""
+  },
+  {
+    "imageSrc": "/image/about/youth.jpg",
+    "imageAlt": "Tineri și voluntariat",
+    "title": "Tineri și voluntariat",
+    "description": "Construim programe și evenimente destinate acestora.",
+    "linkText": "",
+    "linkHref": ""
+  }
+]
