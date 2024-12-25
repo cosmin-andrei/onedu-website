@@ -9,7 +9,7 @@ type Product = {
     title: string;
     category: string;
     price: number;
-    image: string;
+    images: string[];
 };
 
 const ProductsSection = () => {
@@ -37,8 +37,7 @@ const ProductsSection = () => {
     const handleNextPage = () => currentPage < totalPages && setCurrentPage(currentPage + 1);
 
     const handleProductClick = (id: string) => {
-        // Redirecționează la pagina produsului cu ID-ul respectiv
-        window.location.href = `/product/${id}`;
+        window.location.href = `/merch/${id}`;
     };
 
     return (
@@ -78,7 +77,7 @@ const ProductsSection = () => {
                             <Image
                                 width={500}
                                 height={300}
-                                src={product.image}
+                                src={product.images[0]}
                                 alt={product.title}
                                 className="w-full h-48 object-cover rounded"
                             />

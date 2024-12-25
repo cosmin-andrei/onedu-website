@@ -136,7 +136,7 @@ export function Navbar() {
                 <div className="flex items-center gap-4">
                     <FaShoppingCart className="text-3xl cursor-pointer hover:bg-gray-200 p-2 rounded-md ml-4" />
                     <Link href="/doneaza">
-                        <button className="bg-red-600 text-white px-3 py-1 rounded-md font-medium text-sm hover:bg-red-700">
+                        <button className="bg-custom-blue text-white px-3 py-1 rounded-md font-medium text-sm hover:bg-custom-blue-dark">
                             <FaHeart className="inline-block mr-1" /> Donează
                         </button>
                     </Link>
