@@ -52,14 +52,14 @@ const ProjectsPage: React.FC = () => {
         <>
             <Navbar/>
 
-            <HeroSection heroProject={heroProject} handleProjectClick={handleProjectClick} />
+            <HeroSection heroProject={heroProject} handleProjectClick={handleProjectClick}/>
             <FilterSection currentFilter={filter} onFilterChange={setFilter}/>
             <section className="py-8">
-                <div className="max-w-6xl mx-auto px-4">
+                <div className="max-w-7xl mx-auto px-4">
                     {filteredProjects.length === 0 ? (
                         <p className="text-center text-gray-700">Nu există proiecte în această categorie.</p>
                     ) : (
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-12">
                             {currentProjects.map((project) => (
                                 <ProjectCard key={project.id} project={project} onClick={handleProjectClick}/>
                             ))}
@@ -67,6 +67,7 @@ const ProjectsPage: React.FC = () => {
                     )}
                 </div>
             </section>
+
 
             {/* Paginare */}
             {filteredProjects.length > projectsPerPage && (

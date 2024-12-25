@@ -45,7 +45,7 @@ export const ColumnSection: React.FC<ColumnSectionProps> = ({
                             <p className="text-gray-600 px-4 mt-2">{card.description}</p>
                             <Link
                                 href={card.linkHref}
-                                className="inline-block mt-4 mb-6 px-4 py-2 text-blue-700 font-semibold hover:text-blue-800 transition-colors"
+                                className="inline-block mt-4 mb-6 px-4 py-2 text-custom-blue font-semibold hover:text-custom-blue-dark transition-colors"
                             >
                                 {card.linkText}
                             </Link>

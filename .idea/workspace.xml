@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ddfd914-ff5c-4fe9-813f-308b619c230a" name="Changes" comment="new items">
-      <change afterPath="$PROJECT_DIR$/src/app/merch/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/merch/products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/merch/products.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/transfer/transfer-data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/transfer/transfer-data.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/image/stories/Iulia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/image/stories/iulia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/image/stories/Maya.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/image/stories/maya.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/proiecte/ProjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/proiecte/ProjectCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/proiecte/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/proiecte/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pageContent/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pageContent/carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pageContent/column-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pageContent/column-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pageContent/content-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pageContent/content-section.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,23 +128,7 @@
       <workItem from="1735065699227" duration="17000" />
       <workItem from="1735065717701" duration="15000" />
       <workItem from="1735065738398" duration="391000" />
-      <workItem from="1735066266113" duration="3441000" />
-    </task>
-    <task id="LOCAL-00006" summary="fix error">
-      <option name="closed" value="true" />
-      <created>1734123927032</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1734123927032</updated>
-    </task>
-    <task id="LOCAL-00007" summary="fix error">
-      <option name="closed" value="true" />
-      <created>1734124053150</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1734124053150</updated>
+      <workItem from="1735066266113" duration="6344000" />
     </task>
     <task id="LOCAL-00008" summary="fix error">
       <option name="closed" value="true" />
@@ -518,7 +506,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735065871617</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="new items">
+      <option name="closed" value="true" />
+      <created>1735138815484</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1735138815484</updated>
+    </task>
+    <task id="LOCAL-00056" summary="new items">
+      <option name="closed" value="true" />
+      <created>1735138822442</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1735138822442</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
