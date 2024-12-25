@@ -1,0 +1,35 @@
+{
+  "sponsori": [
+    {
+      "id": 1,
+      "url": "https://sponsor1.com",
+      "src": "/images/sponsor1.png",
+      "alt": "Sponsor 1"
+    },
+    {
+      "id": 2,
+      "url": "https://sponsor2.com",
+      "src": "/images/sponsor2.png",
+      "alt": "Sponsor 2"
+    }
+
+  ],
+  "sponsoriInKind": [
+    {
+      "id": 3,
+      "url": "https://sponsorin1.com",
+      "src": "/images/sponsorin1.png",
+      "alt": "Sponsorin 1"
+    }
+
+  ],
+  "teamCOR": [
+    {
+      "id": 4,
+      "url": "https://teamcor1.com",
+      "src": "/images/teamcor1.png",
+      "alt": "Team COR 1"
+    }
+
+  ]
+}

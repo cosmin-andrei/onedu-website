@@ -30,7 +30,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClick }) => {
                 />
             </div>
             <div className="p-6">
-                <h3 className="text-lg font-bold mb-3 truncate">{project.title}</h3>
+                <h3 className="text-lg font-bold mb-3">{project.title}</h3>
                 <div className="flex justify-start gap-2 mb-3 flex-wrap">
                     <span className="bg-custom-blue text-white px-3 py-1 rounded-full text-sm">
             {project.status}
