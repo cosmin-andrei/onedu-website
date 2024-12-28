@@ -5,11 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ddfd914-ff5c-4fe9-813f-308b619c230a" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/data/confidentialitate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/formular230/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/terms/TermsContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/terms/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/terms/sections/terms.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/judet.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/judete.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/judete.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/sponsorizeaza/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sponsorizeaza/hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/certs/onedu.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/certs/onedu.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/authController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/donationController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/emailController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/formulare230Controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/mobilpayController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/smartPayController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/userController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/middlewares/authenticateJWT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/Administrator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/DonationLunar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/DonationOneTime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/Formulare230.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/MagicLink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/authRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/donationRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/emailRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/formulare230Routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/mobilpayRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/smartPayRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/userRoutes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/seeders/seed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/services/mobilpayService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/services/smartPayService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/templates/formular230_template.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/utils/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/utils/sendEmail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/redirectioneaza/redirectCall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/redirectioneaza/redirectCall.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/donationForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/donationForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/donationModal/PaymentModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/donationModal/PaymentModal.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +64,8 @@
         <option value="CSS File" />
         <option value="tsconfig.json" />
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -57,39 +98,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.11.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.10.2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Cosmin/Desktop/Electronics-eCommerce-Shop-With-Admin-Dashboard-NextJS-NodeJS-main&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\ONedu\\onedu-website\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.nodejs.core.library.configured.version": "22.11.0",
+    "javascript.nodejs.core.library.typings.version": "22.10.2",
+    "last_opened_file_path": "D:/ONedu/backend",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\ONedu\\onedu-website\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;,
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "sqlite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ONedu\onedu-website\src\data" />
       <recent name="D:\ONedu\onedu-website\public" />
       <recent name="D:\ONedu\onedu-website\src\app\doneaza" />
       <recent name="D:\ONedu\onedu-website\src\app\transfer" />
       <recent name="D:\ONedu\tedxavramiancustreet.ro\public\image" />
-      <recent name="D:\ONedu\tedxavramiancustreet.ro\public\logos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ONedu\onedu-website\backend\certs" />
@@ -137,6 +178,8 @@
       <workItem from="1735317191780" duration="9012000" />
       <workItem from="1735333300946" duration="4486000" />
       <workItem from="1735371422042" duration="3495000" />
+      <workItem from="1735397074288" duration="830000" />
+      <workItem from="1735397970053" duration="12662000" />
     </task>
     <task id="LOCAL-00012" summary="fix error">
       <option name="closed" value="true" />

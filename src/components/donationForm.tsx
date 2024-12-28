@@ -1,6 +1,6 @@
 "use client";
-import React, { useState, ChangeEvent } from 'react';
-import { FaCreditCard, FaUniversity } from 'react-icons/fa';
+import React, {useState, ChangeEvent} from 'react';
+import {FaCreditCard, FaUniversity} from 'react-icons/fa';
 import PaymentModal from './donationModal/PaymentModal';
 import TransferModal from './donationModal/TransferModal';
 
@@ -106,7 +106,7 @@ export function DonationForm() {
                             }`}
                             onClick={() => setPaymentMethod('Card')}
                         >
-                            <FaCreditCard className="mr-2" /> Card
+                            <FaCreditCard className="mr-2"/> Card
                         </button>
                         <button
                             className={`flex-1 p-2 text-sm rounded-lg border flex items-center justify-center transition hover:border-custom-blue ${
@@ -116,7 +116,7 @@ export function DonationForm() {
                             }`}
                             onClick={() => setPaymentMethod('Transfer')}
                         >
-                            <FaUniversity className="mr-2" /> Transfer
+                            <FaUniversity className="mr-2"/> Transfer
                         </button>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ export function DonationForm() {
                 isOpen={isPaymentModalOpen}
                 onClose={() => setIsPaymentModalOpen(false)}
                 amount={amount}
-                frequency={frequency}
+                frequency={frequency === 'lunar' ? 'Lunar' : 'OneTime'}
             />
 
             <TransferModal

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 const RedirectioneazaCall: React.FC = () => {
     return (
@@ -9,9 +10,9 @@ const RedirectioneazaCall: React.FC = () => {
             <p className="text-base text-gray-800 mb-6">
                 Redirecționează 3,5% din impozitul pe venit și ajută-ne să continuăm planul pornit pentru educația din România.
             </p>
-            <button className="bg-custom-blue text-white px-6 py-3 text-base font-bold rounded-md cursor-pointer transition-colors duration-300 hover:bg-custom-blue-dark">
+            <Link href="/formular230" className="bg-custom-blue text-white px-6 py-3 text-base font-bold rounded-md cursor-pointer transition-colors duration-300 hover:bg-custom-blue-dark">
                 Completează formularul
-            </button>
+            </Link>
         </div>
     );
 };
