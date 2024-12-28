@@ -13,13 +13,14 @@ const MENU_ITEMS = [
             { label: "Transfer bancar", href: "/transfer" },
             { label: "SMS", href: "/sms" },
             { label: "Redirecționează 3,5%", href: "/redirectioneaza" },
-            { label: "Campania ta", href: "/campanii" },
+            { label: "Sponsorizează 20%", href: "/sponsorizeaza" }
+            // { label: "Campania ta", href: "/campanii" },
         ]
     },
     { label: "Planul nostru", href: "/plan" },
-    { label: "Școala ONedu", href: "/scoala" },
+    // { label: "Școala ONedu", href: "/scoala" },
     { label: "Sponsorizează 20%", href: "/sponsorizeaza" },
-    { label: "Merch", href: "/merch" },
+    // { label: "Merch", href: "/merch" },
     {
         label: "Despre noi", href: "", subMenu: [
             { label: "Despre noi", href: "/despre" },
@@ -67,12 +68,15 @@ export function Navbar() {
                     />
                 </Link>
 
+                {/* Meniul de Navigație */}
                 <nav
-                    className={`${
-                        menuOpen
-                            ? "absolute inset-x-0 top-full bg-white shadow-md z-40"
-                            : "hidden"
-                    } lg:flex lg:static lg:bg-transparent lg:shadow-none lg:ml-auto`}
+                    className={`lg:flex lg:static lg:bg-transparent lg:shadow-none lg:ml-auto 
+                        ${menuOpen
+                        ? "absolute inset-x-0 top-full bg-white shadow-md z-40 max-h-screen opacity-100 transition-all duration-300 ease-in"
+                        : "absolute inset-x-0 top-full bg-white shadow-md z-40 max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-out"
+                    }
+                        lg:max-h-none lg:opacity-100 lg:overflow-visible
+                    `}
                 >
                     <ul className="flex flex-col lg:flex-row items-start lg:items-center gap-2 lg:gap-1 p-4 lg:p-0 text-sm">
                         {MENU_ITEMS.map((item) => (
@@ -133,11 +137,13 @@ export function Navbar() {
                     </ul>
                 </nav>
 
+                {/* Iconițe și Butoane */}
                 <div className="flex items-center gap-4">
                     <FaShoppingCart className="text-3xl cursor-pointer hover:bg-gray-200 p-2 rounded-md ml-4" />
                     <Link href="/doneaza">
-                        <button className="bg-custom-blue text-white px-3 py-1 rounded-md font-medium text-sm hover:bg-custom-blue-dark">
-                            <FaHeart className="inline-block mr-1" /> Donează
+                        <button className="bg-custom-blue text-white px-3 py-1 rounded-md font-medium text-sm hover:bg-custom-blue-dark flex items-center">
+                            <FaHeart className="hidden lg:inline-block mr-1" /> {/* Iconul este ascuns pe mobil */}
+                            Donează
                         </button>
                     </Link>
 

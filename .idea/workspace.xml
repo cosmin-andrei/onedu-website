@@ -5,51 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ddfd914-ff5c-4fe9-813f-308b619c230a" name="Changes" comment="new items">
-      <change afterPath="$PROJECT_DIR$/backend/certs/onedu.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/certs/onedu.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/authController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/donationController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/emailController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/formulare230Controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/mobilpayController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/smartPayController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/middlewares/authenticateJWT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/Administrator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/DonationLunar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/DonationOneTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/Formulare230.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/MagicLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/authRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/donationRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/emailRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/formulare230Routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/mobilpayRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/smartPayRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/seeders/seed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/services/mobilpayService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/services/smartPayService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/templates/formular230_template.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/utils/logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/utils/sendEmail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/admin/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/admin/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/proiecte/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/proiecte/HeroSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/proiecte/ProjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/proiecte/ProjectCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/proiecte/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/proiecte/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/donationForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/donationForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/donationModal/PaymentModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/donationModal/PaymentModal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/donationModal/TransferModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/donationModal/TransferModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/admin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,15 +137,7 @@
       <workItem from="1735168147156" duration="5757000" />
       <workItem from="1735317191780" duration="9012000" />
       <workItem from="1735333300946" duration="4486000" />
-      <workItem from="1735371422042" duration="376000" />
-    </task>
-    <task id="LOCAL-00010" summary="fix error">
-      <option name="closed" value="true" />
-      <created>1734124836112</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1734124836112</updated>
+      <workItem from="1735371422042" duration="1068000" />
     </task>
     <task id="LOCAL-00011" summary="fix error">
       <option name="closed" value="true" />
@@ -570,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735156239272</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="new items">
+      <option name="closed" value="true" />
+      <created>1735371881716</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1735371881717</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
