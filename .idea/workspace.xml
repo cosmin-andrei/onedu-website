@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ddfd914-ff5c-4fe9-813f-308b619c230a" name="Changes" comment="new items">
+    <list default="true" id="9ddfd914-ff5c-4fe9-813f-308b619c230a" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/data/confidentialitate.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/sponsorizeaza/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sponsorizeaza/hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,15 +136,7 @@
       <workItem from="1735168147156" duration="5757000" />
       <workItem from="1735317191780" duration="9012000" />
       <workItem from="1735333300946" duration="4486000" />
-      <workItem from="1735371422042" duration="1068000" />
-    </task>
-    <task id="LOCAL-00011" summary="fix error">
-      <option name="closed" value="true" />
-      <created>1734124958341</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1734124958341</updated>
+      <workItem from="1735371422042" duration="3495000" />
     </task>
     <task id="LOCAL-00012" summary="fix error">
       <option name="closed" value="true" />
@@ -531,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735371881717</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="update">
+      <option name="closed" value="true" />
+      <created>1735372665272</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1735372665272</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="navbar fix" />
-    <MESSAGE value="update" />
     <MESSAGE value="despre page" />
     <MESSAGE value="fix error" />
     <MESSAGE value="ticketpage" />
@@ -561,6 +559,7 @@
     <MESSAGE value="updateee" />
     <MESSAGE value="first iter" />
     <MESSAGE value="new items" />
-    <option name="LAST_COMMIT_MESSAGE" value="new items" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

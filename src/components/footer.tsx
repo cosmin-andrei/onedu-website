@@ -9,53 +9,30 @@ const FOOTER_MENUS = {
         {href: '/doneaza', label: 'Donează online'},
         {href: '/transfer', label: 'Transfer bancar'},
         {href: '/redirectioneaza', label: 'Redirecționează 3.5%'},
+        {href: '/sponsorizeaza', label: 'Sponsorizează 20%'},
         {href: '/sms', label: 'Donează SMS'},
     ],
     plan: [
-        {href: '/abilitati-aptitudini', label: 'Abilități și aptitudini'},
-        {href: '/management-scolar', label: 'Management școlar'},
-        {href: '/educatie-online', label: 'Educație în online'},
+        {href: 'https://manual.fiide10.ro', label: 'Manual de utilizare'},
+        {href: 'https://fiide10.ro/contact', label: 'Suport beneficiari'},
+        {href: 'https://fiide10.ro', label: 'Hubul Fii de 10!'},
+        {href: '/scoala', label: 'Școala ONedu'},
         {href: 'https://ivoluntar.org', label: 'Centrul iVoluntar'},
+
     ],
     organization: [
+        {href: '/parteneriate', label: 'Parteneriate & folosire logo'},
+        {href: '/newsletter', label: 'Rămâi la curent'},
+        {href: '/plan', label: 'Planul nostru'},
         {href: '/despre', label: 'Despre noi'},
-        {href: '/proiecte', label: 'Proiecte'},
-        {href: '/rapoarte', label: 'Rapoarte'},
         {href: '/blog', label: 'Blog'},
     ],
 };
 export function Footer() {
     return (
-        <footer className="bg-[#16366d] text-white mt-8 p-8 text-sm">
+        <footer className="bg-[#16366d] text-white p-8 text-sm">
             {/* Grid Container */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-                {/* Donează */}
-                <div className="mb-6">
-                    <h3 className="font-bold mb-4 text-lg">Donează</h3>
-                    <ul className="list-none p-0 space-y-2">
-                        {FOOTER_MENUS.donate.map((item, index) => (
-                            <li key={index} className="text-sm">
-                                <Link href={item.href} className="hover:text-blue-gray-500">
-                                    {item.label}
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-
-                {/* Planul nostru */}
-                <div className="mb-6">
-                    <h3 className="font-bold mb-4 text-lg">Planul nostru</h3>
-                    <ul className="list-none p-0 space-y-2">
-                        {FOOTER_MENUS.plan.map((item, index) => (
-                            <li key={index} className="text-sm">
-                                <Link href={item.href} className="hover:text-blue-gray-500">
-                                    {item.label}
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
 
                 {/* Organizație */}
                 <div className="mb-6">
@@ -70,6 +47,35 @@ export function Footer() {
                         ))}
                     </ul>
                 </div>
+
+                {/* Planul nostru */}
+                <div className="mb-6">
+                    <h3 className="font-bold mb-4 text-lg">Universul #ONedu</h3>
+                    <ul className="list-none p-0 space-y-2">
+                        {FOOTER_MENUS.plan.map((item, index) => (
+                            <li key={index} className="text-sm">
+                                <Link href={item.href} className="hover:text-blue-gray-500">
+                                    {item.label}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                {/* Donează */}
+                <div className="mb-6">
+                    <h3 className="font-bold mb-4 text-lg">Donează</h3>
+                    <ul className="list-none p-0 space-y-2">
+                        {FOOTER_MENUS.donate.map((item, index) => (
+                            <li key={index} className="text-sm">
+                                <Link href={item.href} className="hover:text-blue-gray-500">
+                                    {item.label}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
             </div>
 
             {/* Footer Bottom */}
