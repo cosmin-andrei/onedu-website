@@ -17,6 +17,7 @@
     "bootstrap": "^5.3.3",
     "cross-env": "^7.0.3",
     "data": "^0.6.1",
+    "multer": "^1.4.5-lts.1",
     "next": "14.3.0-canary.0",
     "react": "18",
     "react-dom": "18",

@@ -7,10 +7,6 @@ interface TransferModalProps {
 }
 
 export function TransferModal({ isOpen, onClose, amount }: TransferModalProps) {
-    if (!isOpen) {
-        return null;
-    }
-
     const handleOverlayClick = () => {
         onClose();
     };
@@ -21,11 +17,11 @@ export function TransferModal({ isOpen, onClose, amount }: TransferModalProps) {
 
     return (
         <div
-            className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+            className={`fixed inset-0 bg-black bg-opacity-50 flex justify-center md:items-center items-end z-50 transition-opacity duration-300 ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
             onClick={handleOverlayClick}
         >
             <div
-                className="bg-white p-8 rounded-xl w-full max-w-3xl shadow-lg relative flex flex-col"
+                className={`bg-white p-4 md:p-8 rounded-t-xl md:rounded-xl w-full max-w-md md:max-w-3xl shadow-lg relative flex flex-col transition-transform duration-300 transform ${isOpen ? 'translate-y-0' : 'translate-y-full'} pointer-events-auto`}
                 onClick={handleModalClick}
             >
                 <button
@@ -34,16 +30,16 @@ export function TransferModal({ isOpen, onClose, amount }: TransferModalProps) {
                 >
                     ×
                 </button>
-                <div className="flex gap-6">
+                <div className="flex flex-col gap-4 md:flex-row md:gap-6">
                     <div className="flex-1">
-                        <div className="bg-blue-100 p-4 rounded-xl mb-4">
+                        <div className="bg-custom-blue-light p-4 rounded-xl mb-4">
                             <h3 className="text-lg font-semibold">Donația ta</h3>
                             <p className="text-base">
                                 Donație: <strong>{amount} RON</strong>
                             </p>
                         </div>
                         <p className="text-sm italic text-gray-600">
-                            Menționează emailul tău la detaliile plății pentru a ne asigura că donația ta apare în contul tău de donator. 😊
+                            Menționează emailul tău la detaliile plății pentru ca donația să fie asociată contului tău de donator.
                         </p>
                     </div>
                     <div className="flex-2">
@@ -55,7 +51,7 @@ export function TransferModal({ isOpen, onClose, amount }: TransferModalProps) {
                             <p className="mb-2"><strong>IBAN (Cont EURO):</strong> RO93 BTRL EURC RT0C O956 3601</p>
                         </div>
                         <button
-                            className="w-full mt-4 bg-blue-800 text-white p-3 rounded-lg font-bold hover:bg-blue-700"
+                            className="w-full mt-4 bg-custom-blue text-white p-3 rounded-lg font-bold hover:bg-custom-blue-dark"
                             onClick={onClose}
                         >
                             Am înțeles

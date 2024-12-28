@@ -30,11 +30,11 @@ export function PaymentModal({ isOpen, onClose, amount, frequency }: PaymentModa
 
     return (
         <div
-            className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+            className={`fixed inset-0 bg-black bg-opacity-50 flex justify-center md:items-center items-end z-50 transition-opacity duration-300 ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
             onClick={handleOverlayClick}
         >
             <div
-                className="bg-white p-8 rounded-xl w-full max-w-3xl shadow-lg relative"
+                className={`bg-white p-4 md:p-8 rounded-t-xl md:rounded-xl w-full max-w-md md:max-w-3xl shadow-lg relative flex flex-col transition-transform duration-300 transform ${isOpen ? 'translate-y-0' : 'translate-y-full'} pointer-events-auto`}
                 onClick={handleModalClick}
             >
                 <button
@@ -43,14 +43,14 @@ export function PaymentModal({ isOpen, onClose, amount, frequency }: PaymentModa
                 >
                     ×
                 </button>
-                <div className="flex gap-6">
-                    <div className="flex-1 bg-blue-100 p-4 rounded-xl">
+                <div className="flex flex-col gap-4 md:flex-row md:gap-6">
+                    <div className="flex-1 bg-custom-blue-light p-4 rounded-xl">
                         <h3 className="text-lg font-semibold">Donația ta</h3>
                         <p className="text-base">
                             Donație: {amount} RON{frequency === 'lunar' ? ' / lună' : ''}
                         </p>
                         <small className="text-sm text-gray-600">
-                            Donațiile cu cardul procesate prin SmartFintech.
+                            Donațiile cu cardul sunt procesate prin SmartFintech.
                         </small>
                     </div>
                     <div className="flex-2">
@@ -70,7 +70,7 @@ export function PaymentModal({ isOpen, onClose, amount, frequency }: PaymentModa
                                     <input
                                         type="text"
                                         required
-                                        className="w-full p-2 border rounded-lg focus:outline-none focus:border-blue-800 border-gray-300"
+                                        className="w-full p-2 border rounded-lg focus:outline-none focus:border-custom-blue border-gray-300"
                                     />
                                 </div>
                             </div>
@@ -79,14 +79,14 @@ export function PaymentModal({ isOpen, onClose, amount, frequency }: PaymentModa
                                 <input
                                     type="email"
                                     required
-                                    className="w-full p-2 border rounded-lg focus:outline-none focus:border-blue-800 border-gray-300"
+                                    className="w-full p-2 border rounded-lg focus:outline-none focus:border-custom-blue border-gray-300"
                                 />
                             </div>
                             <div className="mb-4">
                                 <label className="block text-sm font-bold mb-2">Telefon (opțional)</label>
                                 <input
                                     type="tel"
-                                    className="w-full p-2 border rounded-lg focus:outline-none focus:border-blue-800 border-gray-300"
+                                    className="w-full p-2 border rounded-lg focus:outline-none focus:border-custom-blue border-gray-300"
                                 />
                             </div>
                             <div className="flex items-center gap-2 mb-4">
@@ -95,7 +95,7 @@ export function PaymentModal({ isOpen, onClose, amount, frequency }: PaymentModa
                                     id="subscribe"
                                     checked={isSubscribed}
                                     onChange={() => setIsSubscribed(!isSubscribed)}
-                                    className="w-5 h-5 border-gray-500 focus:ring-blue-800"
+                                    className="w-5 h-5 border-gray-500 focus:ring-custom-blue"
                                 />
                                 <label htmlFor="subscribe" className="text-sm">
                                     Da, îmi pasă și doresc să primesc vești pe email despre proiectele Asociației ONedu.
@@ -103,7 +103,7 @@ export function PaymentModal({ isOpen, onClose, amount, frequency }: PaymentModa
                             </div>
                             <button
                                 type="submit"
-                                className="w-full bg-blue-800 text-white p-3 rounded-lg font-bold hover:bg-blue-700"
+                                className="w-full bg-custom-blue text-white p-3 rounded-lg font-bold hover:bg-custom-blue-dark"
                             >
                                 Donează acum
                             </button>
@@ -114,6 +114,5 @@ export function PaymentModal({ isOpen, onClose, amount, frequency }: PaymentModa
         </div>
     );
 }
-
 
 export default PaymentModal;

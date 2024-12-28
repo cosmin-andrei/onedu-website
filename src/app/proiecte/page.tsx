@@ -1,10 +1,10 @@
 "use client";
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import HeroSection from './HeroSection';
 import FilterSection from './FilterSection';
 import ProjectCard from './ProjectCard';
 import Pagination from './Pagination';
-import {Navbar, Footer} from "@/components";
+import { Navbar, Footer } from "@/components";
 import data from '@/data/projects.json';
 
 interface Project {
@@ -50,10 +50,12 @@ const ProjectsPage: React.FC = () => {
 
     return (
         <>
-            <Navbar/>
+            <Navbar />
 
-            <HeroSection heroProject={heroProject} handleProjectClick={handleProjectClick}/>
-            <FilterSection currentFilter={filter} onFilterChange={setFilter}/>
+            <div className="mb-8 md:mb-0">
+                <HeroSection heroProject={heroProject} handleProjectClick={handleProjectClick} />
+            </div>
+            <FilterSection currentFilter={filter} onFilterChange={setFilter} />
             <section className="py-8">
                 <div className="max-w-7xl mx-auto px-4">
                     {filteredProjects.length === 0 ? (
@@ -61,13 +63,12 @@ const ProjectsPage: React.FC = () => {
                     ) : (
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-12">
                             {currentProjects.map((project) => (
-                                <ProjectCard key={project.id} project={project} onClick={handleProjectClick}/>
+                                <ProjectCard key={project.id} project={project} onClick={handleProjectClick} />
                             ))}
                         </div>
                     )}
                 </div>
             </section>
-
 
             {/* Paginare */}
             {filteredProjects.length > projectsPerPage && (
@@ -78,7 +79,7 @@ const ProjectsPage: React.FC = () => {
                     onNext={handleNextPage}
                 />
             )}
-            <Footer/>
+            <Footer />
         </>
     );
 };

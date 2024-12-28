@@ -71,9 +71,9 @@ export function DonationForm() {
                     </label>
                     <div className="flex gap-2">
                         <button
-                            className={`flex-1 p-2 text-sm rounded-lg border transition ${
+                            className={`flex-1 p-2 text-sm rounded-lg border transition hover:border-custom-blue ${
                                 frequency === 'lunar'
-                                    ? 'bg-white text-black border-blue-800'
+                                    ? 'bg-white text-black border-custom-blue'
                                     : 'bg-gray-100 text-gray-600 border-gray-300'
                             }`}
                             onClick={() => setFrequency('lunar')}
@@ -81,9 +81,9 @@ export function DonationForm() {
                             <strong>lunar</strong>
                         </button>
                         <button
-                            className={`flex-1 p-2 text-sm rounded-lg border transition ${
+                            className={`flex-1 p-2 text-sm rounded-lg border transition hover:border-custom-blue ${
                                 frequency === 'o singura data'
-                                    ? 'bg-white text-black border-blue-800'
+                                    ? 'bg-white text-black border-custom-blue'
                                     : 'bg-gray-100 text-gray-600 border-gray-300'
                             }`}
                             onClick={() => setFrequency('o singura data')}
@@ -99,9 +99,9 @@ export function DonationForm() {
                     </label>
                     <div className="flex gap-2">
                         <button
-                            className={`flex-1 p-2 text-sm rounded-lg border flex items-center justify-center transition ${
+                            className={`flex-1 p-2 text-sm rounded-lg border flex items-center justify-center transition hover:border-custom-blue${
                                 paymentMethod === 'Card'
-                                    ? 'bg-white text-black border-blue-800'
+                                    ? 'bg-white text-black border-custom-blue'
                                     : 'bg-gray-100 text-gray-600 border-gray-300'
                             }`}
                             onClick={() => setPaymentMethod('Card')}
@@ -109,9 +109,9 @@ export function DonationForm() {
                             <FaCreditCard className="mr-2" /> Card
                         </button>
                         <button
-                            className={`flex-1 p-2 text-sm rounded-lg border flex items-center justify-center transition ${
+                            className={`flex-1 p-2 text-sm rounded-lg border flex items-center justify-center transition hover:border-custom-blue ${
                                 paymentMethod === 'Transfer'
-                                    ? 'bg-white text-black border-blue-800'
+                                    ? 'bg-white text-black border-custom-blue'
                                     : 'bg-gray-100 text-gray-600 border-gray-300'
                             }`}
                             onClick={() => setPaymentMethod('Transfer')}
@@ -122,7 +122,7 @@ export function DonationForm() {
                 </div>
 
                 <button
-                    className="w-full p-3 bg-blue-800 text-white font-bold rounded-lg mt-2 hover:bg-blue-700 transition"
+                    className="w-full p-3 bg-custom-blue text-white font-bold rounded-lg mt-2 hover:bg-custom-blue-dark transition"
                     onClick={handleDonationClick}
                 >
                     Donează online
