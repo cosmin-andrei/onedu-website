@@ -6,11 +6,12 @@ const nextConfig = {
         protocol: "https",
         hostname: "**",
       },
+      {
+        protocol: "http",
+        hostname: "localhost",
+      },
     ],
   },
-};
-
-module.exports = {
   experimental: {
     workerThreads: false,
     cpus: 1,
