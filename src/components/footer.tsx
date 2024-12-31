@@ -10,7 +10,7 @@ const FOOTER_MENUS = {
         {href: '/transfer', label: 'Transfer bancar'},
         // {href: '/redirectioneaza', label: 'Redirecționează 3.5%'},
         {href: '/sponsorizeaza', label: 'Sponsorizează 20%'},
-        {href: '/sms', label: 'Donează SMS'},
+        // {href: '/sms', label: 'Donează SMS'},
     ],
     plan: [
         {href: 'https://manual.fiide10.ro', label: 'Manual de utilizare'},
