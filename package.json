@@ -7,8 +7,8 @@
   "homepage": "https://onedu.ro",
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_OPTIONS='--max_old_space_size=2048' next build",
-    "start": "NODE_OPTIONS='--max_old_space_size=2048' node server.js"
+    "build": "next build",
+    "start": "node server.js"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
