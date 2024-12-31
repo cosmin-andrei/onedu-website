@@ -7,7 +7,7 @@
   "homepage": "https://onedu.ro",
   "scripts": {
     "dev": "next dev",
-    "build": "NODE_OPTIONS='--max_old_space_size=4096' next build",
+    "build": "next build",
     "start": "node --trace-deprecation server.js"
   },
   "dependencies": {

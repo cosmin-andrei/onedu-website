@@ -8,7 +8,7 @@ const FOOTER_MENUS = {
     donate: [
         {href: '/doneaza', label: 'Donează online'},
         {href: '/transfer', label: 'Transfer bancar'},
-        {href: '/redirectioneaza', label: 'Redirecționează 3.5%'},
+        // {href: '/redirectioneaza', label: 'Redirecționează 3.5%'},
         {href: '/sponsorizeaza', label: 'Sponsorizează 20%'},
         {href: '/sms', label: 'Donează SMS'},
     ],
@@ -21,7 +21,7 @@ const FOOTER_MENUS = {
 
     ],
     organization: [
-        {href: '/parteneriate', label: 'Parteneriate & folosire logo'},
+        {href: '/brand', label: 'Brandul ONedu'},
         {href: '/newsletter', label: 'Rămâi la curent'},
         {href: '/plan', label: 'Planul nostru'},
         {href: '/despre', label: 'Despre noi'},
